@@ -1,0 +1,26 @@
+<svg width="192" height="192" viewBox="0 0 192 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="192" height="192" rx="48" fill="url(#gradient)"/>
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="192" y2="192" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Ícone de Scanner/Placa -->
+  <rect x="48" y="72" width="96" height="48" rx="8" fill="white" opacity="0.9"/>
+  <text x="96" y="104" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1E40AF" text-anchor="middle">ABC</text>
+  <text x="96" y="128" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1E40AF" text-anchor="middle">1D23</text>
+  
+  <!-- Linha de scan -->
+  <line x1="36" y1="96" x2="156" y2="96" stroke="#60A5FA" stroke-width="3" opacity="0.8">
+    <animate attributeName="y1" values="72;120;72" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="72;120;72" dur="2s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Cantos do scanner -->
+  <path d="M 36 64 L 36 52 L 48 52" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 144 52 L 156 52 L 156 64" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 156 128 L 156 140 L 144 140" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 48 140 L 36 140 L 36 128" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>
